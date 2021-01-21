@@ -109,7 +109,7 @@
         function search(){
             $(".weatherdata").hide();
             $(".search").show();
-            var url = "http://api.openweathermap.org";
+            var url = "https://api.openweathermap.org";
             var lat = $("#lattitude").val();
             var lon = $("#longtitude").val();
            
